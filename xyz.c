@@ -10,7 +10,7 @@ int main() {
 char* xyz_there(char * string){
   int i=0, count=0;
   while(string[i] != '\0'){
-    if(string[i-2]=='x'&& string[i-1]=='y'&&string[i-1]=='y'){
+    if(string[i-2]=='x'&& string[i-1]=='y'&&string[i]=='z'){
       if(string[i-3]=='.');
       else
       count++;
